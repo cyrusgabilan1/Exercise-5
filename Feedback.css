@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #111;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-style: italic;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #111;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 0.75rem;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+}
+
+.container {
+    margin-top: 6rem;
+    padding: 2rem;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(65vh - 6rem);
+    position: relative;
+    margin: 50px auto;
+}
+
+.message {
+    background-color: #2c3e50;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #ecf0f1;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.message h2 {
+    font-size: 2rem;
+    margin-bottom: 2px;
+}
+
+.message pre {
+    background-color: #34495e;
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    overflow: auto;
+    text-align: left;
+}
+
+.form {
+    background-color: #2c3e50;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #ecf0f1;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.info-fields, .feedback-fields {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #1abc9c;
+    border-radius: 8px;
+    background-color: #34495e;
+    color: #f5f5f5;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+button.send {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+button.send:hover {
+    background-color: #16a085;
+    transform: scale(1.02);
+}
+
+.success {
+    color: #2ecc71;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
